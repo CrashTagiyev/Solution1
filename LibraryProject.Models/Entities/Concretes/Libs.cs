@@ -10,10 +10,8 @@ namespace LibraryProject.Models.Entities.Concretes
     public class Libs:BaseEntity
     {
         public string Firstname { get; set; }
-        public string Lastname { get; set; }
+        public string Lasstname { get; set; }
 
-        //navigation
-        public ICollection<S_Cards> Scards { get; set; } = null!;
-        public ICollection<T_Cards> Tcards { get; set; } = null!;
+        public virtual SCards ScardsNavigation { get; set; }
     }
 }

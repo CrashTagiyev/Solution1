@@ -12,6 +12,6 @@ namespace LibraryProject.Models.Entities.Concretes
         public string Name { get; set; }
 
         //navigation
-        public ICollection<Departments> departments { get; set; }
+        public virtual ICollection<Departments> departments { get; set; }
     }
 }

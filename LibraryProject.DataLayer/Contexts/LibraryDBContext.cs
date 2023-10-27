@@ -27,14 +27,15 @@ namespace LibraryProject.DataLayer.Contexts
        public virtual DbSet<Category> Categories { get; set; }
        public virtual DbSet<Themes> Themes { get; set; }
        public virtual DbSet<Press> Presses { get; set; }
-       public virtual DbSet<Departments> Departments { get; set; }
-       public virtual DbSet<Faculties> Faculties { get; set; }
-       public virtual DbSet<Groups> Groups { get; set; }
-       public virtual DbSet<Libs> Libs { get; set; }
-       public virtual DbSet<S_Cards> S_Cards { get; set; }
-       public virtual DbSet<T_Cards> T_Cards { get; set; }
-       public virtual DbSet<Students> Students { get; set; }
-       public virtual DbSet<Teachers> Teachers { get; set; }
+        public virtual DbSet<Departments> Departments { get; set; }
+        public virtual DbSet<Faculties> Faculties { get; set; }
+        public virtual DbSet<Groups> Groups { get; set; }
+        public virtual DbSet<Teachers> Teachers { get; set; }
+        public virtual DbSet<Students> Students { get; set; }
+
+        public virtual DbSet<SCards> S_Cards { get; set; }
+        public virtual DbSet<Libs> Libs { get; set; }
+        public virtual DbSet<TCards> T_Cards { get; set; }
     }
 }
  

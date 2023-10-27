@@ -14,6 +14,6 @@ namespace LibraryProject.Models.Entities.Concretes
 
         public int DepartmentId { get; set; }
         //Navigation property
-        public Departments DepartmentIdNavigation { get; set; } = null!;
+        public virtual Departments DepartmentIdNavigation { get; set; } = null!;
     }
 }

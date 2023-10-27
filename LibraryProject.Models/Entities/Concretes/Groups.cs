@@ -8,6 +8,6 @@ namespace LibraryProject.Models.Entities.Concretes
         public int FacultiesId { get; set; }
 
         //Navigation property
-        public Faculties FacultiesIdNavigation { get; set; } = null!;
+         public virtual Faculties FacultiesIdNavigation { get; set; } = null!;
     }
 }
